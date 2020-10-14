@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 # %%
 import sys
+import click
 
-def main():
-  return 1
+@click.command()
+@click.option('--name', '-n', default='World')
+def main(name):
+    msg = 'Hello, {name}!'.format(name=name)
+    click.echo(msg)
