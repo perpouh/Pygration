@@ -3,5 +3,4 @@
 import sys
 
 def main():
-  hello = input('Hello> ') or 'Hi'
-  print(hello)
+  return 1
