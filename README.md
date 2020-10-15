@@ -11,13 +11,13 @@ It is used when "I don't need a framework, but I want to use DB and want to cont
 ## Usage
 
 ```
-pygration create --name="table_name"
+pygration create --name=table_name
 ```
 
 `create` generate migration file to create table.
 
 ```
-pygration alter --name="table_name"
+pygration alter --name=table_name
 ```
 
 `alter` generate migration file to alter table.
